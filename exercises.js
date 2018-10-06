@@ -39,7 +39,7 @@ function canVote(age){
 }
 
 console.log(canVote(14))
-
+console.log(test)
 /*
  * #2
  * Function - login
