@@ -30,6 +30,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 
 
+function canVote(age){
+  if (age >= 18){
+    return true; 
+  }else{
+    return "don't do it";
+  }
+}
+
+console.log(canVote(14))
+
 /*
  * #2
  * Function - login
@@ -312,6 +322,11 @@ Final Boss
  *
  *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. Test your function with the `phrase` below!
 */
+
+function removeLetter(str)  {
+
+
+}
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
  
