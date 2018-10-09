@@ -51,7 +51,7 @@ console.log(test)
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
-
+console.log("Do I still know how to commit to github")
 
 /*
  * #3
