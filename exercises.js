@@ -39,7 +39,7 @@ function canVote(age){
 }
 
 console.log(canVote(14))
-console.log(test)
+
 /*
  * #2
  * Function - login
@@ -51,8 +51,15 @@ console.log(test)
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
-console.log("Do I still know how to commit to github")
 
+function login(password){
+if (password == "test1234"){
+return true;
+}else{
+  return "return was false"
+}
+} 
+console.log(login("test1334"))
 /*
  * #3
  * Function - isGreaterThan
@@ -66,9 +73,13 @@ console.log("Do I still know how to commit to github")
  * Console.log your result.
 */
 
-
-
-/*
+function isGreaterThan(first, second){
+if (first > second){
+  return true;
+} 
+}
+console.log(isGreaterThan(1,3))
+/*  
  * #4
  * Function - mustBeTrue
  * Create a function named `mustBeTrue` which will take a parameter: `boo`.
@@ -80,6 +91,15 @@ console.log("Do I still know how to commit to github")
  * Console.log your result.
 */
 
+/* HELP!!
+funtion mustBeTrue(boo){
+  if (boo === true){
+  return true;
+}
+}
+console.log(mustBeTrue(boo))
+
+*/
 
 
 /*
@@ -108,6 +128,16 @@ console.log("Do I still know how to commit to github")
  * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
+
+function isEqual(first, second){
+if (first === second){
+return "you look mahvelous"
+}else{
+  return "What the hell"
+}
+}
+
+console.log(isEqual("1","2"))
 
 
 /*
@@ -196,7 +226,17 @@ console.log("Do I still know how to commit to github")
  * Console.log your result.
 */ 
 
+/*  
+function graduation(credits, thesis){
+if (credits => "120"){
+return "Congrats!"
+}else {
+return "see you in summer school"}
 
+WHAT IS ||?!??!!?
+}
+console.log(graduation(113))
+*/
 
 /*
  * #13
